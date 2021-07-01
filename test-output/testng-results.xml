@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="default" duration-ms="8373" started-at="2021-07-01T09:44:38Z" finished-at="2021-07-01T09:44:47Z">
+  <suite name="Default suite" duration-ms="12859" started-at="2021-07-01T23:35:18Z" finished-at="2021-07-01T23:35:31Z">
     <groups>
     </groups>
-    <test name="LoginValidation" duration-ms="8373" started-at="2021-07-01T09:44:38Z" finished-at="2021-07-01T09:44:47Z">
+    <test name="Default test" duration-ms="12859" started-at="2021-07-01T23:35:18Z" finished-at="2021-07-01T23:35:31Z">
       <class name="com.atg.tests.HorsePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atg.tests.HorsePageTest@59fa1d9b]" name="setUp" is-config="true" duration-ms="5621" started-at="2021-07-01T09:44:38Z" finished-at="2021-07-01T09:44:44Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.atg.tests.HorsePageTest@587d1d39]" name="setUp" is-config="true" duration-ms="10620" started-at="2021-07-01T23:35:18Z" finished-at="2021-07-01T23:35:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="horseTest()[pri:1, instance:com.atg.tests.HorsePageTest@59fa1d9b]" name="horseTest" duration-ms="2729" started-at="2021-07-01T09:44:44Z" finished-at="2021-07-01T09:44:47Z">
+        <test-method status="PASS" signature="horseTest()[pri:1, instance:com.atg.tests.HorsePageTest@587d1d39]" name="horseTest" duration-ms="2102" started-at="2021-07-01T23:35:29Z" finished-at="2021-07-01T23:35:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- horseTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atg.tests.HorsePageTest@59fa1d9b]" name="teardown" is-config="true" duration-ms="1" started-at="2021-07-01T09:44:47Z" finished-at="2021-07-01T09:44:47Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.atg.tests.HorsePageTest@587d1d39]" name="teardown" is-config="true" duration-ms="118" started-at="2021-07-01T23:35:31Z" finished-at="2021-07-01T23:35:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.atg.tests.HorsePageTest -->
-    </test> <!-- LoginValidation -->
-  </suite> <!-- default -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
