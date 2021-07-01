@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="default">
+  
+  <listeners>
+        <listener class-name="com.atg.listeners.TestRetry"/>
+        <listener class-name="com.atg.listeners.AnnotationTransformer"/>
+    </listeners>
+  
+  <test name="HorseValidation">
+    <classes>
+      <class name="com.atg.tests.HorsePageTest"/>   
+    </classes>
+  </test>
+</suite>
